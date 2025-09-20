@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <hr className="--color-dark" />
       <div className="--flex-center --py2 --bg-grey">
-        <p>All Rights Reserved. &copy; 2025 by Dobhal Auth.</p>
+        <p>All Rights Reserved. &copy; 2023</p>
       </div>
     </>
   );

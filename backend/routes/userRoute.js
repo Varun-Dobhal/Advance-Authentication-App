@@ -23,20 +23,22 @@ const {
   changePassword,
   sendLoginCode,
   loginWithCode,
+  loginWithGoogle,
 } = require("../controllers/userController");
 
-router.post("/register", registerUser);
-router.get("/login", loginUser);
 router.get("/logout", logoutUser);
 router.get("/getUser", protect, getUser);
 router.get("/getUsers", protect, authorOnly, getUsers);
 router.get("/loginStatus", loginStatus);
+router.post("/register", registerUser);
+router.post("/login", loginUser);
 router.post("/upgradeUser", protect, upgradeUser);
 router.post("/sendAutomatedEmail", protect, sendAutomatedEmail);
 router.post("/sendVerificationEmail", protect, sendVerificationEmail);
 router.post("/forgotPassword", forgotPassword);
 router.post("/sendLoginCode/:email", sendLoginCode);
 router.post("/loginWithCode/:email", loginWithCode);
+router.post("/google/callback", loginWithGoogle);
 router.patch("/update", protect, updateUser);
 router.patch("/verifyUser/:verificationToken", verifyUser);
 router.patch("/resetPassword/:resetToken", resetPassword);
