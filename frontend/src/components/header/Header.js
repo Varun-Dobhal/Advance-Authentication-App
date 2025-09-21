@@ -27,9 +27,9 @@ const Header = () => {
   return (
     <header className="header">
       <nav>
-        <div className="logo" onClick={goHome}>
+        <div className="logo " onClick={goHome}>
           <BiLogIn size={35} />
-          <span>AUTH:Z</span>
+          <span>SECURE-GATE</span>
         </div>
 
         <ul className="home-links">

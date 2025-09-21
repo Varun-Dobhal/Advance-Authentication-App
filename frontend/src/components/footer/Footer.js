@@ -1,11 +1,13 @@
 import React from "react";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <>
       <hr className="--color-dark" />
       <div className="--flex-center --py2 --bg-grey">
-        <p>All Rights Reserved. &copy; 2023</p>
+        <p>© {currentYear} Dobhal's. All rights reserved.</p>
       </div>
     </>
   );

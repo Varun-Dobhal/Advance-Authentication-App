@@ -5,21 +5,24 @@
   --header-height: 45px;
 
   --font-family: "Poppins", sans-serif;
-  --dark-blue: #0a1930;
-  --light-blue: #1f93ff;
 
-  --color-white: #fff;
-  --color-dark: #333;
+  /* NEW COLOR PALETTE */
+  --dark-blue: #0d1b2a; /* Rich Navy */
+  --light-blue: #1b6ca8; /* Formal Royal Blue */
+  --gold-accent: #e0a106; /* Premium Gold Accent */
 
-  --color-grey: #eee;
-  --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --color-white: #fdfdfd;
+  --color-dark: #212529;
 
-  --color-purple: #9d0191;
-  --color-orange: #ff7722;
+  --color-grey: #f4f6f8;
+  --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 
-  --color-primary: #007bff;
-  --color-success: #28a745;
-  --color-danger: orangered;
+  --color-purple: #5a189a; /* Deep Purple Accent */
+  --color-orange: #f77f00; /* Warm Orange Accent */
+
+  --color-primary: var(--light-blue);
+  --color-success: #2d6a4f; /* Deep Green */
+  --color-danger: #c1121f; /* Classy Red */
 }
 
 * {
